@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Question = require("../../../models/question");
 const Option = require("../../../models/option");
+
 // create a question using "/api/v1/questions/create"
 module.exports.createQuestion = function (req, res, next) {
     const question = new Question({
