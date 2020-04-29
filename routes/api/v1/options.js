@@ -4,7 +4,7 @@ const optionsController = require("../../../controllers/api/v1/options_controlle
 
 
 // handling requests
-router.post("/:optionId/delete", optionsController.deleteOption);
+router.delete("/:optionId/delete", optionsController.deleteOption);
 router.post("/:optionId/add_vote",optionsController.addVote);
 
 

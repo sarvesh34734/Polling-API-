@@ -18,7 +18,7 @@ module.exports.deleteOption = async function(req,res){
                 });
             }
             // if vote>0 return error message
-            if(option.vote>0){
+            if(option.votes>0){
                 return res.status(404).json({
                     message:"Cannot delete object as number of votes > 0"
                 });
