@@ -1,0 +1,19 @@
+{
+  "name": "pollingapi",
+  "version": "1.0.0",
+  "description": "A polling api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "polling",
+    "api"
+  ],
+  "author": "sarvesh vyas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
+  }
+}
